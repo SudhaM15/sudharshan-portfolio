@@ -643,10 +643,6 @@ video {
   height: 100%;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .w-72 {
   width: 18rem;
 }
@@ -762,8 +758,8 @@ video {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-\[url\(\'images\/blobanimation\.svg\'\)\] {
-  background-image: url('images/blobanimation.svg');
+.bg-\[url\(\'images\/bg-1\.jpg\'\)\] {
+  background-image: url('images/bg-1.jpg');
 }
 
 .bg-\[url\(\'images\/hulu5\.png\'\)\] {
@@ -786,10 +782,6 @@ video {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'images\/bg-1\.jpg\'\)\] {
-  background-image: url('images/bg-1.jpg');
-}
-
 .from-purple-700 {
   --tw-gradient-from: #7e22ce var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(126 34 206 / 0) var(--tw-gradient-to-position);
@@ -806,10 +798,6 @@ video {
   --tw-gradient-to: #dc2626 var(--tw-gradient-to-position);
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -820,14 +808,6 @@ video {
 
 .bg-top {
   background-position: top;
-}
-
-.bg-left {
-  background-position: left;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-cover {
