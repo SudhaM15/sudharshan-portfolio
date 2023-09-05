@@ -201,8 +201,9 @@
             id="slider"
              class="relative min-w-[280px] lg:h-[600px] lg:w-[500px]">
             <!-- arrow icon -->
-            <div class="absolute top-0 left-0 flex w-full h-full px-5 z-10 justify-between">
-                <button onclick="prev()" class="">
+            <div class="absolute top-0 left-0 flex w-full h-full px-5 z-10">
+              <div class="flex justify-between w-full my-auto">
+                 <button onclick="prev()" class="">
                   <span class="material-symbols-outlined preview-btn"
                     >arrow_back_ios</span
                   >
@@ -212,9 +213,8 @@
                     >arrow_forward_ios</span
                   >
                 </button>
-            </div>
-
-            <div class="absolute top-0 bottom-0 bg-[rgba(0,0,0,0.5)]"></div>
+              </div>
+            </div>           
             <!-- images -->
             <li class="relative w-full h-full">
               <img
@@ -304,5 +304,6 @@
       </div>
     </footer>
 
+  <script src="main.js"></script>
   </body>
 </html>
