@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 1000,
+});
+
 curentSlideID = 1;
 
 sliderElement = document.getElementById("slider");

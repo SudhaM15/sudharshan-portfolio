@@ -14,6 +14,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Final Portfolio</title>
   </head>
   <body class="text-white bg-[#1A1A1D]">
@@ -45,9 +47,9 @@
     <section id="hero" class="bg-[url('images/bg-1.jpg')] bg-cover bg-fixed">
       <!-- hero container -->
       <div
-        class="container mx-auto bg-black flex flex-col py-16 md:py-32 lg:py-40 p-2 justify-center space-y-5 sm:space-x-5 md:space-y-0 md:flex-row">
+        class="container mx-auto flex flex-col py-16 md:py-32 lg:py-40 p-2 justify-center space-y-5 sm:space-x-5 md:space-y-0 md:flex-row">
         <!-- left -->
-        <div data-aos="fade-right" class="md:w-1/2 flex flex-col items-center md:items-start space-y-4 lg:space-y-5 lg:max-w-md">
+        <div class="md:w-1/2 flex flex-col items-center md:items-start space-y-4 lg:space-y-5 lg:max-w-md">
           <h2 class="text-center md:text-left text-2xl lg:text-4xl font-bold md:pb-2 font-sand">Hey There! I'm</h2>
           <h1
             class="font-semibold text-4xl text-center md:text-left md:text-5xl lg:text-8xl">
@@ -59,7 +61,7 @@
           <button class="py-3 px-6 bg-gradient-to-tr shadow-2xl from-purple-700 to-red-600 rounded-full font-sand">Contact me</button>
         </div>
         <!-- right -->
-        <div class="md:w-1/2" data-aos="fade-left">
+        <div class="md:w-1/2">
           <img src="images/hero-image.png" alt="" />
         </div>
       </div>
@@ -69,18 +71,18 @@
 
     <!-- About me -->
     <section id="about">
-      <h1 data-aos="fade-down" class="my-10 text-center font-semibold text-3xl">
+      <h1 data-aos="fade-up" class="my-10 text-center font-semibold text-3xl">
         ABOUT ME
       </h1>
       <!-- About-me container -->
       <div
         class="container p-2 md:p-10 md:space-x-10 mx-auto flex flex-col md:flex-row justify-between">
         <!-- left -->
-        <div data-aos="fade-right" class="hidden md:block md:w-1/2">
+        <div data-aos="fade-up" class="hidden md:block md:w-1/2">
           <img src="images/design-inspiration-animate.svg" alt="" />
         </div>
         <!-- right -->
-        <div data-aos="fade-left" class="md:w-1/2 md:max-w-lg lg:space-y-4">
+        <div data-aos="fade-up" class="md:w-1/2 md:max-w-lg lg:space-y-4">
           <h2 class="text-center font-medium text-2xl font-sand">
             Let me introduce myself
           </h2>
@@ -135,7 +137,7 @@
       <div class="container mx-auto sm:p-10 md:mb-24 flex flex-col items-center flex-wrap md:flex-row justify-center gap-5 md:gap-16">
         <!-- card-1 -->
         <div
-          data-aos="fade-right"
+          data-aos="fade-up"
           class="w-72 rounded-md overflow-hidden bg-[#1A1A1D]">
           <div class="h-52 bg-[url('images/hulu5.png')] bg-top bg-cover"></div>
           <h2 class="p-2 font-medium text-white">HULU</h2>
@@ -166,7 +168,7 @@
         </div>
         <!-- card-3 -->
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           class="w-72 rounded-md overflow-hidden bg-[#1A1A1D]">
           <div class="h-52 bg-[url('images/hulu5.png')] bg-top bg-cover"></div>
           <h2 class="p-2 font-medium text-white">HULU</h2>
@@ -188,7 +190,7 @@
       <div
         class="container mx-auto p-10 flex flex-col md:flex-row md:space-x-10 items-center justify-center space-y-10">
         <!-- left -->
-        <div data-aos="fade-down" class="md:w-1/2">
+        <div data-aos="fade-up" class="md:w-1/2">
           <h1
             class="text-center text-2xl font-semibold md:text-left md:text-5xl font-sand leading-10">
             "Here are some of my photoshop designs"
@@ -280,10 +282,10 @@
     </section>
 
     <!-- footer -->
-    <footer id="contact" class="">
+    <footer id="contact">
       <!-- footer container -->
       <div
-        class="container p-5 md:space-x-10 flex flex-col items-center md:flex-row justify-center">
+        class="container mx-auto p-5 md:space-x-10 flex flex-col items-center md:flex-row justify-center">
         <!-- left -->
         <div class="flex flex-col space-x-3 max-w-md md:1/2 font-sand">
           <h2 class="text-xl text-center lg:text-2xl lg:p-3">
