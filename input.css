@@ -2,3 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-shape-divider-top-1693634090 {
+  position: absolute;
+  top: -0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1693634090 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1693634090 .shape-fill {
+  fill: #1a1a1d;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1693634090 svg {
+    width: calc(144% + 1.3px);
+    height: 90px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1693634090 svg {
+    width: calc(130% + 1.3px);
+    height: 38px;
+  }
+}
+
+.custom-shape-divider-bottom-1693635498 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693635498 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1693635498 .shape-fill {
+  fill: #1a1a1d;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1693635498 svg {
+    width: calc(144% + 1.3px);
+    height: 90px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1693635498 svg {
+    width: calc(130% + 1.3px);
+    height: 38px;
+  }
+}
