@@ -983,6 +983,10 @@ video {
   transition-duration: 300ms;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .custom-shape-divider-top-1693634090 {
   position: absolute;
   top: -0;
