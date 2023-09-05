@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
     <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;600;700&family=Quicksand:wght@300;400&display=swap"
@@ -18,75 +18,88 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Final Portfolio</title>
   </head>
-  <body class="text-white bg-[#1A1A1D]">
+  <body class="bg-[#1A1A1D] text-white">
     <!-- nav bar -->
-     <header class="fixed z-10 px-10 transform -translate-x-1/2 top-5 left-1/2">
-      
+    <header class="fixed left-1/2 top-5 z-10 -translate-x-1/2 transform px-10">
       <nav
         data-aos="fade-down"
-        class="container px-5 py-[6px] hidden mx-auto max-w-xs lg:flex justify-around transform transition-colors text-black bg-opacity-60 bg-white rounded-full">
+        class="container mx-auto hidden max-w-xs transform justify-around rounded-full bg-white bg-opacity-60 px-5 py-[6px] text-black transition-colors lg:flex"
+      >
         <a
-          class="px-4 py-2 duration-300 rounded-full hover:bg-violet-400"
+          class="rounded-full px-4 py-2 duration-300 hover:bg-violet-400"
           href="#about"
           >ABOUT</a
         >
         <a
-          class="px-5 py-2 duration-300 rounded-full hover:bg-violet-400"
+          class="rounded-full px-5 py-2 duration-300 hover:bg-violet-400"
           href="#works"
           >WORKS</a
         >
         <a
-          class="px-4 py-2 duration-300 rounded-full hover:bg-violet-400"
+          class="rounded-full px-4 py-2 duration-300 hover:bg-violet-400"
           href="#contact"
           >CONTACT</a
         >
-     </nav>
+      </nav>
     </header>
 
-      <!-- hero section -->
+    <!-- hero section -->
     <section id="hero" class="bg-[url('images/bg-1.jpg')] bg-cover bg-fixed">
       <!-- hero container -->
       <div
-        class="container flex flex-col justify-center p-2 py-16 mx-auto space-y-5 md:py-32 lg:py-40 sm:space-x-5 md:space-y-0 md:flex-row">
+        class="container mx-auto flex flex-col justify-center space-y-5 p-2 py-16 sm:space-x-5 md:flex-row md:space-y-0 md:py-32 lg:py-40"
+      >
         <!-- left -->
-        <div class="flex flex-col items-center space-y-4 md:w-1/2 md:items-start lg:space-y-5 lg:max-w-md">
-          <h2 class="text-2xl font-bold text-center md:text-left lg:text-4xl md:pb-2 font-sand">Hey There! I'm</h2>
+        <div
+          class="flex flex-col items-center space-y-4 md:w-1/2 md:items-start lg:max-w-md lg:space-y-5"
+        >
+          <h2
+            class="text-center font-sand text-2xl font-bold md:pb-2 md:text-left lg:text-4xl"
+          >
+            Hey There! I'm
+          </h2>
           <h1
-            class="text-4xl font-semibold text-center md:text-left md:text-5xl lg:text-8xl">
+            class="text-center text-4xl font-semibold md:text-left md:text-5xl lg:text-8xl"
+          >
             <span class="font-oswald">Sudharshan</span>
           </h1>
-          <h2 class="text-xl text-center lg:text-3xl md:text-left font-sand">
+          <h2 class="text-center font-sand text-xl md:text-left lg:text-3xl">
             I am a Frontend Web Developer & Designer
           </h2>
-          <button class="px-6 py-3 rounded-full shadow-2xl bg-gradient-to-tr from-purple-700 to-red-600 font-sand"><a href="#contact">Contact me</a></button>
+          <button
+            class="rounded-full bg-gradient-to-tr from-purple-700 to-red-600 px-6 py-3 font-sand shadow-2xl"
+          >
+            <a href="#contact">Contact me</a>
+          </button>
         </div>
         <!-- right -->
         <div class="md:w-1/2">
           <img src="images/hero-image.png" alt="" />
         </div>
       </div>
-      
-
     </section>
 
     <!-- About me -->
     <section id="about">
-      <h1 data-aos="fade-up" class="my-10 text-3xl font-semibold text-center">
+      <h1 data-aos="fade-up" class="my-10 text-center text-3xl font-semibold">
         ABOUT ME
       </h1>
       <!-- About-me container -->
       <div
-        class="container flex flex-col justify-between p-2 mx-auto md:p-10 md:space-x-10 md:flex-row">
+        class="container mx-auto flex flex-col justify-between p-2 md:flex-row md:space-x-10 md:p-10"
+      >
         <!-- left -->
         <div data-aos="fade-up" class="hidden md:block md:w-1/2">
           <img src="images/design-inspiration-animate.svg" alt="" />
         </div>
         <!-- right -->
         <div data-aos="fade-up" class="md:w-1/2 md:max-w-lg lg:space-y-4">
-          <h2 class="text-2xl font-medium text-center font-sand">
+          <h2 class="text-center font-sand text-2xl font-medium">
             Let me introduce myself
           </h2>
-          <p class="py-3 text-sm text-justify lg:text-base xl:text-[18px] text-zinc-300">
+          <p
+            class="py-3 text-justify text-sm text-zinc-300 lg:text-base xl:text-[18px]"
+          >
             I am a 20 year old all about crafting digital magic in Web
             Development. I've recently completed my degree, and I'm currently on
             the lookout for job opportunities while continuing to work as a
@@ -94,14 +107,18 @@
             learner always eager to explore new horizons. I do a Googling
             because, well, i am still a learner.
           </p>
-          <p class="py-3 text-sm text-justify lg:text-base text-xl:text-[18px] text-zinc-300">
+          <p
+            class="text-xl:text-[18px] py-3 text-justify text-sm text-zinc-300 lg:text-base"
+          >
             Every project I take on is a step forward on my journey to becoming
             a seasoned developer. As an added skill I'm well-versed in design
             tools like Adobe Photoshop, Figma adding an artistic touch to my web
             development. I believe that exceptional design and seamless
             functionality go hand in hand.
           </p>
-          <p class="py-3 text-sm text-justify lg:text-base xl:text-[18px] text-zinc-300">
+          <p
+            class="py-3 text-justify text-sm text-zinc-300 lg:text-base xl:text-[18px]"
+          >
             Feeling the excitement? I sure am! Ready to join forces and whip up
             something truly remarkable? Let's dive right in and create digital
             wonders together!
@@ -111,8 +128,10 @@
     </section>
 
     <!-- works section-->
-    <section class="relative pb-5 md:py-14 bg-gradient-to-b from-violet-500"
-      id="works">
+    <section
+      class="relative bg-gradient-to-b from-violet-500 pb-5 md:py-14"
+      id="works"
+    >
       <!-- waves -->
       <div>
         <div class="custom-shape-divider-top-1693634090">
@@ -120,26 +139,32 @@
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
-            preserveAspectRatio="none">
+            preserveAspectRatio="none"
+          >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"></path>
+              class="shape-fill"
+            ></path>
           </svg>
         </div>
       </div>
 
       <h1
         data-aos="fade-down"
-        class="py-5 my-10 text-3xl font-semibold text-center">
+        class="my-10 py-5 text-center text-3xl font-semibold"
+      >
         WORKS
       </h1>
       <!-- works container -->
-      <div class="container flex flex-col flex-wrap items-center justify-center gap-5 mx-auto sm:p-10 md:mb-24 md:flex-row md:gap-16">
+      <div
+        class="container mx-auto flex flex-col flex-wrap items-center justify-center gap-5 sm:p-10 md:mb-24 md:flex-row md:gap-16"
+      >
         <!-- card-1 -->
         <div
           data-aos="fade-up"
-          class="w-72 rounded-md overflow-hidden bg-[#1A1A1D]">
-          <div class="h-52 bg-[url('images/hulu5.png')] bg-top bg-cover"></div>
+          class="w-72 overflow-hidden rounded-md bg-[#1A1A1D]"
+        >
+          <div class="h-52 bg-[url('images/hulu5.png')] bg-cover bg-top"></div>
           <h2 class="p-2 font-medium text-white">HULU</h2>
           <p class="p-2 text-sm text-zinc-300">
             Discover a world of entertainment with our Hulu website! Stream your
@@ -147,15 +172,22 @@
             content from various genres.
           </p>
           <div class="py-3 pl-2">
-            <a class="text-emerald-500" href="https://hulu-moviesite.netlify.app/" target="_blank">CHECK OUT</a>
+            <a
+              class="text-emerald-500"
+              href="https://hulu-moviesite.netlify.app/"
+              target="_blank"
+              >CHECK OUT</a
+            >
           </div>
         </div>
         <!-- card-2 -->
         <div
           data-aos="fade-up"
-          class="w-72 rounded-md overflow-hidden bg-[#1A1A1D]">
+          class="w-72 overflow-hidden rounded-md bg-[#1A1A1D]"
+        >
           <div
-            class="h-52 bg-[url('images/sushi-test-1.png')] bg-top bg-cover"></div>
+            class="h-52 bg-[url('images/sushi-test-1.png')] bg-cover bg-top"
+          ></div>
           <h2 class="p-2 font-medium text-white">SUSHI-RESTRARUNT</h2>
           <p class="p-2 text-sm text-zinc-300">
             "Welcome to our sushi paradise! Our website is your virtual sushi
@@ -163,14 +195,20 @@
             atmosphere"
           </p>
           <div class="py-3 pl-2">
-            <a class="text-red-400" href="https://food-sushi.netlify.app/" target="_blank">CHECK OUT</a>
+            <a
+              class="text-red-400"
+              href="https://food-sushi.netlify.app/"
+              target="_blank"
+              >CHECK OUT</a
+            >
           </div>
         </div>
         <!-- card-3 -->
         <div
           data-aos="fade-up"
-          class="w-72 rounded-md overflow-hidden bg-[#1A1A1D]">
-          <div class="h-52 bg-[url('images/hulu5.png')] bg-top bg-cover"></div>
+          class="w-72 overflow-hidden rounded-md bg-[#1A1A1D]"
+        >
+          <div class="h-52 bg-[url('images/hulu5.png')] bg-cover bg-top"></div>
           <h2 class="p-2 font-medium text-white">HULU</h2>
           <p class="p-2 text-sm text-zinc-300">
             Discover a world of entertainment with our Hulu website! Stream your
@@ -185,14 +223,16 @@
     </section>
 
     <!-- design section -->
-    <section class="relative py-20 bg-gradient-to-t from-violet-500">
+    <section class="relative bg-gradient-to-t from-violet-500 py-20">
       <!-- design container -->
       <div
-        class="container flex flex-col items-center justify-center p-10 mx-auto space-y-10 md:flex-row md:space-x-10">
+        class="container mx-auto flex flex-col items-center justify-center space-y-10 p-10 md:flex-row md:space-x-10"
+      >
         <!-- left -->
         <div data-aos="fade-up" class="md:w-1/2">
           <h1
-            class="text-2xl font-semibold leading-10 text-center md:text-left md:text-5xl font-sand">
+            class="text-center font-sand text-2xl font-semibold leading-10 md:text-left md:text-5xl"
+          >
             "Here are some of my photoshop designs"
           </h1>
         </div>
@@ -201,11 +241,12 @@
           <!-- carousel -->
           <ul
             id="slider"
-             class="relative min-w-[280px] lg:h-[600px] lg:w-[500px]">
+            class="relative min-w-[280px] lg:h-[600px] lg:w-[500px]"
+          >
             <!-- arrow icon -->
-            <div class="absolute top-0 left-0 z-10 flex w-full h-full px-5">
-              <div class="flex justify-between w-full my-auto">
-                 <button onclick="prev()" class="">
+            <div class="absolute left-0 top-0 z-10 flex h-full w-full px-5">
+              <div class="my-auto flex w-full justify-between">
+                <button onclick="prev()" class="">
                   <span class="material-symbols-outlined preview-btn"
                     >arrow_back_ios</span
                   >
@@ -216,52 +257,60 @@
                   >
                 </button>
               </div>
-            </div>           
+            </div>
             <!-- images -->
-            <li class="relative w-full h-full">
+            <li class="relative h-full w-full">
               <img
                 class="object-cover"
                 src="images/InstaCat-min.jpg"
-                alt="carousel-image" />
+                alt="carousel-image"
+              />
               <h2
-                class="absolute p-2 px-5 rounded-lg top-10 left-5"
-                style="background-color: rgba(255, 255, 255, 0.2)">
+                class="absolute left-5 top-10 rounded-lg p-2 px-5"
+                style="background-color: rgba(255, 255, 255, 0.2)"
+              >
                 InstaCat
               </h2>
             </li>
             <!-- image 2 -->
-            <li class="relative hidden w-full h-full">
+            <li class="relative hidden h-full w-full">
               <img
                 class="object-cover"
                 src="images/BrokenArora-min.jpg"
-                alt="carousel-image" />
+                alt="carousel-image"
+              />
               <h2
-                class="absolute p-2 px-5 rounded-lg top-10 left-5"
-                style="background-color: rgba(255, 255, 255, 0.2)">
+                class="absolute left-5 top-10 rounded-lg p-2 px-5"
+                style="background-color: rgba(255, 255, 255, 0.2)"
+              >
                 Broken Arora
               </h2>
             </li>
             <!-- image 3 -->
-            <li class="relative hidden w-full h-full">
+            <li class="relative hidden h-full w-full">
               <img
                 class="object-cover"
                 src="images/MoonDeer-min.jpg"
-                alt="carousel-image" />
+                alt="carousel-image"
+              />
               <h2
-                class="absolute p-2 px-5 rounded-lg top-10 left-5"
-                style="background-color: rgba(255, 255, 255, 0.2)">
+                class="absolute left-5 top-10 rounded-lg p-2 px-5"
+                style="background-color: rgba(255, 255, 255, 0.2)"
+              >
                 Insta Cat
               </h2>
             </li>
             <!-- image 4 -->
-            <li class="relative hidden w-full h-full">
+            <li class="relative hidden h-full w-full">
               <img
                 class="object-cover"
                 src="images/DukeStreet-min.jpg"
-                alt="carousel-image" />
+                alt="carousel-image"
+              />
               <h2
-                class="absolute p-2 px-5 rounded-lg top-10 left-5"
-                style="background-color: rgba(255, 255, 255, 0.2)">
+                class="absolute left-5 top-10 rounded-lg p-2 px-5"
+                style="background-color: rgba(255, 255, 255, 0.2)"
+              >
                 Duke Street
               </h2>
             </li>
@@ -273,10 +322,12 @@
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
-          preserveAspectRatio="none">
+          preserveAspectRatio="none"
+        >
           <path
             d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"></path>
+            class="shape-fill"
+          ></path>
         </svg>
       </div>
     </section>
@@ -285,19 +336,18 @@
     <footer id="contact">
       <!-- footer container -->
       <div
-        class="container flex flex-col items-center justify-center p-5 mx-auto md:space-x-10 md:flex-row">
+        class="container mx-auto flex flex-col items-center justify-center p-5 md:flex-row md:space-x-10"
+      >
         <!-- left -->
-        <div class="flex flex-col max-w-md space-x-3 md:1/2 font-sand">
-          <h2 class="text-xl text-center lg:text-2xl lg:p-3">
+        <div class="md:1/2 flex max-w-md flex-col space-x-3 font-sand">
+          <h2 class="text-center text-xl lg:p-3 lg:text-2xl">
             contact me: +91 9360484087
           </h2>
-          <h2 class="text-xl text-center lg:text-2xl lg:p-3">
+          <h2 class="text-center text-xl lg:p-3 lg:text-2xl">
             sudharshan2515@gmail.com
           </h2>
-          <h2 class="text-xl text-center lg:text-2xl lg:p-3">Social Media</h2>
-          <div class="flex justify-center gap-10 mt-5">
-            
-          </div>
+          <h2 class="text-center text-xl lg:p-3 lg:text-2xl">Social Media</h2>
+          <div class="mt-5 flex justify-center gap-10"></div>
         </div>
         <!-- right -->
         <div class="md:w-1/2">
@@ -306,6 +356,6 @@
       </div>
     </footer>
 
-  <script src="main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
