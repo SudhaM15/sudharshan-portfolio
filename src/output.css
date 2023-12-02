@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -1215,7 +1215,7 @@ html{
 }
 
 @media (min-width: 1280px) {
-  .xl\:text-\[18px\] {
-    font-size: 18px;
+  .xl\:text-\[17px\] {
+    font-size: 17px;
   }
 }
